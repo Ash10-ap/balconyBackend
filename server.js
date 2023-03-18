@@ -28,7 +28,7 @@ const __dirname = path.dirname(__filename)
 const app = express();
 
 //middelwares
-app.use(cors({ credentials: true, origin: 'https://balcony-backend.vercel.app/' }));
+app.use(cors({ credentials: true, origin: 'http://localhost:3000' }));
 app.use(express.json());
 app.use(morgan("dev"));
 app.use(express.static(path.join(__dirname, "./client/build")))
