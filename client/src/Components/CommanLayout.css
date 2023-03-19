@@ -1,0 +1,36 @@
+.left {
+    display: flex;
+    flex-direction: column;
+    background-color:#62ccb6; ;
+    width: 21vw;
+}
+
+.span-img>img {
+    position: fixed;
+    height: 70vh;
+}
+
+.span-img{
+    display: flex;
+    justify-content: right;
+    margin-top: 20vh;
+}
+
+.logo{
+    position: fixed;
+    width:17%;
+}
+
+.logo>img{
+    width: 12vw;
+    padding-top: 20px;
+}
+
+@media (max-width:820px) {
+    .span-img>img{
+        height: 45vh !important ;
+    }
+    .span-img{
+        margin-top: 30vh;
+    }
+}
